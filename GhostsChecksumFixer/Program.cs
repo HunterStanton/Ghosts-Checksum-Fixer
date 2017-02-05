@@ -13,7 +13,7 @@ namespace GhostsChecksumFixer
         {
             if (args.Length != 2)
             {
-                System.Console.WriteLine("GhostsChecksumFixer\nA tool for fixing the checksum in Ghosts savegames, so that they can be modified.\nWorks on PC, and would probably work on Xbox One and PS4.\nDoes NOT work on Xbox 360 or PS3 due to differing Endian.\nUsage: GhostsChecksumFixer <savegame.svg filename> <endian (big/little)>\nNote: PS3, Xbox 360, and WiiU are BIG endian. PC, Xbox One, and PS4 are LITTLE endian.");
+                System.Console.WriteLine("GhostsChecksumFixer\nA tool for fixing the checksum in Ghosts savegames, so that they can be modified.\nWorks on PC, Xbox 360, PS3, WiiU, and (theoretically) Xbox One and PS4.\nUsage: GhostsChecksumFixer <savegame.svg filename> <endian (big/little)>\nNote: PS3, Xbox 360, and WiiU are BIG endian. PC, Xbox One, and PS4 are LITTLE endian.");
                 return;
             }
             else
