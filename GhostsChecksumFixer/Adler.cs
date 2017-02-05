@@ -26,11 +26,20 @@ namespace GhostsChecksumFixer
             this.Checksum = 1U;
         }
 
+        /// <summary>
+        /// Shorthand version of Update.
+        /// </summary>
+        /// <param name="buff">The buffer of data that will be checksummed.</param>
         public void Update(byte[] buff)
         {
             this.Update(buff, buff.Length);
         }
 
+        /// <summary>
+        /// Calculates Adler32 checksum of input buffer.
+        /// </summary>
+        /// <param name="buff">The buffer of data that will be checksummed.</param>
+        /// <param name="length">How much of the buffer to checksum.</param>
         public void Update(byte[] buff, int length)
         {
             int offset = 0;
