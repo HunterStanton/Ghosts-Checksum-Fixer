@@ -3,4 +3,5 @@ A command-line checksum fixer for Call of Duty: Ghosts PC Savegame.svg files. Wo
 
 ## Usage
 GhostsChecksumFixer.exe savegame.svg
+
 After fixing, both the original and new checksums will be displayed for your reference.
