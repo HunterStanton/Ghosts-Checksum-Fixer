@@ -1,5 +1,5 @@
 # Ghosts Checksum Fixer
-A command-line checksum fixer for Call of Duty: Ghosts PC Savegame.svg files. Works on PC, Xbox 360, PS3, WiiU, and (theoretically) Xbox One and PS4.
+A command-line checksum fixer for Call of Duty: Ghosts Savegame.svg files. Works on PC, Xbox 360, PS3, WiiU, and (theoretically) Xbox One and PS4.
 
 Please be aware that this does not work for Call of Duty: Modern Warfare 2 or Call of Duty: Modern Warfare 3. The save header is a slightly different size. I will be making a separate tool for those games. 
 
