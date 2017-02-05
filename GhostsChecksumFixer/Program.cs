@@ -54,7 +54,7 @@ namespace GhostsChecksumFixer
                         sum = BitConverter.ToUInt32(sumStorage, 0);
                         writer.Write(sum);
                     }
-                    if (args[1] == "little")
+                    else if (args[1] == "little")
                     {
                         sum = (uint)adler32.Value;
                         writer.Write(sum);
