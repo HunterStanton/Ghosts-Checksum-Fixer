@@ -3,6 +3,8 @@ A command-line checksum fixer for Call of Duty: Ghosts Savegame.svg files. Works
 
 If you are looking for a tool for MW2 or MW3, it can be found at https://github.com/HunterStanton/MWX-Checksum-Fixer
 
+If you're looking for a tool for Call of Duty: Infinite Warfare, it can be found at https://github.com/HunterStanton/IW-Checksum-Fixer
+
 I have no idea about other Call of Duty games (such as Modern Warfare Remastered, Advanced Warfare, or Black Ops 1/2). Call of Duty 4 and 5 do not use checksummed saves.
 
 ## Usage
